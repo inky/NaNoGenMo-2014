@@ -6,7 +6,7 @@ from random import choice, random, shuffle
 from textwrap import wrap
 
 DICTIONARY = set()
-with open('/usr/share/dict/web2') as fp:
+with open('/usr/share/dict/words') as fp:
     for word in fp:
         DICTIONARY.add(word.rstrip())
 
